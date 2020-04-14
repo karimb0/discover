@@ -26,6 +26,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
 nav ul {
   list-style: none;
@@ -36,11 +37,12 @@ nav ul {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--grey);
   display: block;
   padding: 56px 23px;
   font-size: 18px;
   transition: 0.3s;
+  font-weight: 900;
 }
 nav a:hover {
   color: var(--white);
@@ -50,4 +52,29 @@ header .container {
   align-items: center;
 }
 .logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 28px;
+  display: block;
+  padding: 12px 21px;
+  border: 2px solid #b7b7b7;
+  position: relative;
+}
+.logo::after {
+  content: "travel";
+  text-transform: uppercase;
+  font-size: 18px;
+  color: var(--green);
+  font-weight: normal;
+  padding: 0 15px;
+  background: var(--white);
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+.mini-menu {
+  display: none;
 }
