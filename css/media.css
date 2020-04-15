@@ -1,3 +1,21 @@
+@media (max-width: 1200px) {
+  .service {
+    flex-direction: column;
+  }
+  .service-slider,
+  .service-block {
+    width: 100%;
+  }
+  .service-slider {
+    height: 280px;
+  }
+  .slide img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+
 @media (max-width: 1000px) {
   header .container {
     flex-direction: column;
@@ -65,6 +83,9 @@
   header .container {
     padding-left: 0;
     padding-right: 0;
+  }
+  .service-item {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
