@@ -98,4 +98,10 @@
     margin: 0 auto;
     border: 3px solid var(--green);
   }
+  .slide img {
+    filter: blur(5px);
+  }
+  .slick-center img {
+    filter: blur(0);
+  }
 }
